@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> AJAX jQuery </title>
+
+        <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+    <h1>AJAX with jQuery </h1>
+
+    <h2> POST & PUT requests</h2>
+
+    <a href="./index.html"> See GET requests</a>
+    <br>
+
+
+    <button class="post-wall-e"> Post WALL_E</button>
+
+    <h3>Create a New Character</h3>
+
+    <form class="new-char-form">
+      <label for="char-name-input"> Character Name </label>
+      <input id="char-name-input" type="text" placeholder="Batman">
+      <br>
+
+      <label for="char-occupation-input"> Character Occupation </label>
+      <input id="char-occupation-input" type="text" placeholder="Detective">
+      <br>
+
+      <label for="char-weapon-input"> Character Weapon </label>
+      <input id="char-weapon-input" type="text" placeholder="Money">
+      <br>
+
+      <button> Post new Character</button>
+    </form>
+
+    <h3> Update a Character</h3>
+
+    <form class="update-char-form">
+      <label  for="update-char-id"> Character ID</label>
+      <input id="update-char-id" type="text" placeholder="9999">
+      <br>
+
+      <label  for="update-name-input"> Character Name</label>
+      <input id="update-name-input" type="text" placeholder="Supermane">
+      <br>
+
+      <label  for="update-occupation-input"> Character Occupation</label>
+      <input id="update-occupation-input" type="text" placeholder="Reporter">
+      <br>
+
+      <label  for="update-weapon-input"> Character Weapon</label>
+      <input id="update-weapon-input" type="text" placeholder="Disguises">
+      <br>
+
+        <button> Update This Character </button>
+
+    </form>
+
+    <ul class="character-list"></ul>
+
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="./js/characters.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> AJAX with jQuery </title>
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+
+    <h1> AJAX with jQuery </h1>
+
+    <h2> GET requests </h2>
+
+    <a href="./characters.html"> See POST & PUT </a>
+
+
+    <!-- empty div will be filled after AJAX is succesfull -->
+    <div class="pokemon-details">  </div>
+
+    <button class="fetch-klang">
+       Fetch Wartortle Data
+    </button>
+
+    <form class="pokemon-search">
+      <label for="poke-id"> Pokemon ID</label>
+      <input id="poke-id" type="number" placeholder="600">
+      <br>
+
+      <button> Fetch This Pokemon Details </button>
+    </form>
+
+
+
+ <!-- From https://code.jquery.com -->
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
